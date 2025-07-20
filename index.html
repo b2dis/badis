@@ -321,7 +321,7 @@
                             }
                         </style>
                         <img
-                            src="chief keep.jpg"
+                            src="t12.jpg"
                             style="width: 20rem; height: 20rem; border: 2px solid rgb(106, 0, 255); border-radius: 9999px;"
                             class="mx-auto shadow-xl animated-border"
                             alt="Profile"
@@ -480,7 +480,7 @@
 <div class="zoom-container">
     <div class="zoom-card" data-image="Creation3.png">
         <div class="zoom-inner">
-            <img src="Creation3.png" alt="Image 2" class="zoom-image">
+            <img src="Creation3.png" alt="Image 3" class="zoom-image">
         </div>
     </div>
 </div>
@@ -489,7 +489,7 @@
 <div class="zoom-container">
     <div class="zoom-card" data-image="Creation4.png">
         <div class="zoom-inner">
-            <img src="Creation4.png" alt="Image 2" class="zoom-image">
+            <img src="Creation4.png" alt="Image 4" class="zoom-image">
         </div>
     </div>
 </div>
@@ -582,9 +582,8 @@ if (typingText) {
         if (i < text.length) {
             typingText.textContent += text.charAt(i);
             i++;
-            setTimeout(typeWriter, 40); // vitesse d’écriture
+            setTimeout(typeWriter, 40); 
         } else {
-            // Quand l'animation est finie, attendre 7 secondes puis recommencer
             setTimeout(() => {
                 typingText.textContent = "";
                 i = 0;
